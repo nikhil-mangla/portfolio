@@ -5,5 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   
   plugins: [react()],
-  base: "/nikhil_mangla_portfolio"
+  // base: "/nikhil_mangla_portfolio",
+  // server: {
+  //   headers: {
+  //     "Permissions-Policy": "interest-cohort=()"
+  //   }
+  // }
 })
